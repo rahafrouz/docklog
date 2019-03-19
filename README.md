@@ -12,3 +12,5 @@ On each machine you run a new container called `logspout`. This container is cal
 
 ### Guru
 Guru is the central server uses `GELF` protocol to gather all of logs from different machines (Gatekeepers) and visualizes it via a web interface. Guru is nothing but a dockerized instance of `Graylog`. It is made of `Elasticsearch`, `mongodb` and `Graylog` containers.
+
+![Dock log architecture for distributed logging of docker containers](/schema.jpg)
